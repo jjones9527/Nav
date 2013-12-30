@@ -10,9 +10,12 @@
 
 @implementation AppDelegate
 
+@synthesize navController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self.window addSubview:navController.view];
     return YES;
 }
 							
