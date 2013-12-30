@@ -40,7 +40,7 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="zDZ-w3-ZW2"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="e6b-rk-HDa"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eoI-W1-fso" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
