@@ -58,6 +58,11 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lgY-Iy-5fM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="hzB-Vw-Tqa" customClass="AppDelegate">
+                    <connections>
+                        <outlet property="navController" destination="5bW-fh-ari" id="bAp-26-niT"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-66" y="53"/>
         </scene>
