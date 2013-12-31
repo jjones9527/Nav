@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F75118C187260470039AFB0 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751184187260460039AFB0 /* button_down.png */; };
+		3F75118D187260470039AFB0 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751185187260460039AFB0 /* button_up.png */; };
+		3F75118E187260470039AFB0 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751186187260460039AFB0 /* checkmarkControllerIcon.png */; };
+		3F75118F187260470039AFB0 /* deleteMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751187187260460039AFB0 /* deleteMeIcon.png */; };
+		3F751190187260470039AFB0 /* detailEditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751188187260460039AFB0 /* detailEditIcon.png */; };
+		3F751191187260470039AFB0 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751189187260470039AFB0 /* disclosureButtonControllerIcon.png */; };
+		3F751192187260470039AFB0 /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F75118A187260470039AFB0 /* moveMeIcon.png */; };
+		3F751193187260470039AFB0 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F75118B187260470039AFB0 /* rowControlsIcon.png */; };
+		3F751196187260AE0039AFB0 /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F751195187260AE0039AFB0 /* DisclosureButtonController.m */; };
+		3F751199187260FD0039AFB0 /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F751198187260FD0039AFB0 /* DisclosureDetailController.m */; };
+		3F75119B187263790039AFB0 /* DisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F75119A187263790039AFB0 /* DisclosureDetail.xib */; };
 		3FC48061186FACD9009BA9D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC48060186FACD9009BA9D6 /* Foundation.framework */; };
 		3FC48063186FACD9009BA9D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC48062186FACD9009BA9D6 /* CoreGraphics.framework */; };
 		3FC48065186FACD9009BA9D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC48064186FACD9009BA9D6 /* UIKit.framework */; };
@@ -36,6 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F751184187260460039AFB0 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		3F751185187260460039AFB0 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
+		3F751186187260460039AFB0 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
+		3F751187187260460039AFB0 /* deleteMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteMeIcon.png; sourceTree = "<group>"; };
+		3F751188187260460039AFB0 /* detailEditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailEditIcon.png; sourceTree = "<group>"; };
+		3F751189187260470039AFB0 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
+		3F75118A187260470039AFB0 /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
+		3F75118B187260470039AFB0 /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
+		3F751194187260AE0039AFB0 /* DisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController.h; sourceTree = "<group>"; };
+		3F751195187260AE0039AFB0 /* DisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController.m; sourceTree = "<group>"; };
+		3F751197187260FD0039AFB0 /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
+		3F751198187260FD0039AFB0 /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
+		3F75119A187263790039AFB0 /* DisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisclosureDetail.xib; sourceTree = "<group>"; };
 		3FC4805D186FACD9009BA9D6 /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC48060186FACD9009BA9D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FC48062186FACD9009BA9D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +109,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F751183187260460039AFB0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3F751184187260460039AFB0 /* button_down.png */,
+				3F751185187260460039AFB0 /* button_up.png */,
+				3F751186187260460039AFB0 /* checkmarkControllerIcon.png */,
+				3F751187187260460039AFB0 /* deleteMeIcon.png */,
+				3F751188187260460039AFB0 /* detailEditIcon.png */,
+				3F751189187260470039AFB0 /* disclosureButtonControllerIcon.png */,
+				3F75118A187260470039AFB0 /* moveMeIcon.png */,
+				3F75118B187260470039AFB0 /* rowControlsIcon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		3FC48054186FACD9009BA9D6 = {
 			isa = PBXGroup;
 			children = (
@@ -123,12 +162,18 @@
 				3FC48072186FACD9009BA9D6 /* Main.storyboard */,
 				3FC48075186FACD9009BA9D6 /* ViewController.h */,
 				3FC48076186FACD9009BA9D6 /* ViewController.m */,
-				3FC48078186FACD9009BA9D6 /* Images.xcassets */,
-				3FC48067186FACD9009BA9D6 /* Supporting Files */,
 				3FE9081B1870FF3500F8DE63 /* FirstLevelViewController.h */,
 				3FE9081C1870FF3500F8DE63 /* FirstLevelViewController.m */,
 				3FE9081E187102AB00F8DE63 /* SecondLevelViewController.h */,
 				3FE9081F187102AB00F8DE63 /* SecondLevelViewController.m */,
+				3F751194187260AE0039AFB0 /* DisclosureButtonController.h */,
+				3F751195187260AE0039AFB0 /* DisclosureButtonController.m */,
+				3F751197187260FD0039AFB0 /* DisclosureDetailController.h */,
+				3F751198187260FD0039AFB0 /* DisclosureDetailController.m */,
+				3F75119A187263790039AFB0 /* DisclosureDetail.xib */,
+				3FC48078186FACD9009BA9D6 /* Images.xcassets */,
+				3FC48067186FACD9009BA9D6 /* Supporting Files */,
+				3F751183187260460039AFB0 /* Images */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -239,8 +284,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC48079186FACD9009BA9D6 /* Images.xcassets in Resources */,
+				3F75118C187260470039AFB0 /* button_down.png in Resources */,
+				3F751191187260470039AFB0 /* disclosureButtonControllerIcon.png in Resources */,
 				3FC4806B186FACD9009BA9D6 /* InfoPlist.strings in Resources */,
+				3F75118F187260470039AFB0 /* deleteMeIcon.png in Resources */,
+				3F75119B187263790039AFB0 /* DisclosureDetail.xib in Resources */,
+				3F75118D187260470039AFB0 /* button_up.png in Resources */,
+				3F751193187260470039AFB0 /* rowControlsIcon.png in Resources */,
+				3F75118E187260470039AFB0 /* checkmarkControllerIcon.png in Resources */,
+				3F751192187260470039AFB0 /* moveMeIcon.png in Resources */,
 				3FC48074186FACD9009BA9D6 /* Main.storyboard in Resources */,
+				3F751190187260470039AFB0 /* detailEditIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +315,10 @@
 			files = (
 				3FE9081D1870FF3500F8DE63 /* FirstLevelViewController.m in Sources */,
 				3FE90820187102AB00F8DE63 /* SecondLevelViewController.m in Sources */,
+				3F751199187260FD0039AFB0 /* DisclosureDetailController.m in Sources */,
 				3FC48077186FACD9009BA9D6 /* ViewController.m in Sources */,
 				3FC48071186FACD9009BA9D6 /* AppDelegate.m in Sources */,
+				3F751196187260AE0039AFB0 /* DisclosureButtonController.m in Sources */,
 				3FC4806D186FACD9009BA9D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
