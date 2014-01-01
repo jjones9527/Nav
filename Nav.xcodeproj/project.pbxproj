@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F01B3D21873B78700BED9D7 /* CheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F01B3D11873B78700BED9D7 /* CheckListController.m */; };
 		3F75118C187260470039AFB0 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751184187260460039AFB0 /* button_down.png */; };
 		3F75118D187260470039AFB0 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751185187260460039AFB0 /* button_up.png */; };
 		3F75118E187260470039AFB0 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F751186187260460039AFB0 /* checkmarkControllerIcon.png */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F01B3D01873B78700BED9D7 /* CheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListController.h; sourceTree = "<group>"; };
+		3F01B3D11873B78700BED9D7 /* CheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListController.m; sourceTree = "<group>"; };
 		3F751184187260460039AFB0 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
 		3F751185187260460039AFB0 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
 		3F751186187260460039AFB0 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				3F751197187260FD0039AFB0 /* DisclosureDetailController.h */,
 				3F751198187260FD0039AFB0 /* DisclosureDetailController.m */,
 				3F75119A187263790039AFB0 /* DisclosureDetail.xib */,
+				3F01B3D01873B78700BED9D7 /* CheckListController.h */,
+				3F01B3D11873B78700BED9D7 /* CheckListController.m */,
 				3FC48078186FACD9009BA9D6 /* Images.xcassets */,
 				3FC48067186FACD9009BA9D6 /* Supporting Files */,
 				3F751183187260460039AFB0 /* Images */,
@@ -319,6 +324,7 @@
 				3FC48077186FACD9009BA9D6 /* ViewController.m in Sources */,
 				3FC48071186FACD9009BA9D6 /* AppDelegate.m in Sources */,
 				3F751196187260AE0039AFB0 /* DisclosureButtonController.m in Sources */,
+				3F01B3D21873B78700BED9D7 /* CheckListController.m in Sources */,
 				3FC4806D186FACD9009BA9D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
